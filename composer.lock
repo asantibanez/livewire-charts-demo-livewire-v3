@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2c732d8fbbeb206e3c6fa91b3d10edd",
+    "content-hash": "8b31f11bd40db6062644bb413137f115",
     "packages": [
         {
             "name": "asantibanez/livewire-charts",
-            "version": "dev-master",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asantibanez/livewire-charts.git",
+                "reference": "802416ee7ad27337098c4af7df25be79a14e6619"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../packages/livewire-charts",
-                "reference": "ac1e6130d4355da531e306aa9d6247cc563521fb"
+                "type": "zip",
+                "url": "https://api.github.com/repos/asantibanez/livewire-charts/zipball/802416ee7ad27337098c4af7df25be79a14e6619",
+                "reference": "802416ee7ad27337098c4af7df25be79a14e6619",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
@@ -39,19 +45,7 @@
                     "Asantibanez\\LivewireCharts\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Asantibanez\\LivewireCharts\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -68,9 +62,11 @@
                 "asantibanez",
                 "livewire-charts"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/asantibanez/livewire-charts/issues",
+                "source": "https://github.com/asantibanez/livewire-charts/tree/v3.0.0"
+            },
+            "time": "2023-07-25T22:14:18+00:00"
         },
         {
             "name": "brick/math",
@@ -8082,9 +8078,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "asantibanez/livewire-charts": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
